@@ -1,1 +1,1 @@
-# Stash-rules
+# rules
