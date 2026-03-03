@@ -57,6 +57,7 @@
 +.tmdb.org
 +.txnhh.com
 +.usersporn.com
++.xcdn1.me
 +.xh.partners
 +.xhamster1.desi
 +.xhamster2.com
