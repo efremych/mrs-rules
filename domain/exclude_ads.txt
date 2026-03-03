@@ -1,5 +1,3 @@
 +.ageverif.com
 +.elonreptiloid.com
-+.pjstat.com
-+.plrjs.org
 +.spac.me
