@@ -18,6 +18,7 @@
 +.elfhosted.com
 +.fandango.com
 +.goodreads.com
++.habr.com
 +.habrastorage.org
 +.hostup.se
 +.js.zi-scripts.com
