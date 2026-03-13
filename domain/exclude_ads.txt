@@ -1,3 +1,4 @@
 +.ageverif.com
++.effect.habr.com
 +.mc.yandex.ru
 +.spac.me
