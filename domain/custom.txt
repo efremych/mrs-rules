@@ -25,6 +25,7 @@ hostup.se
 js.zi-scripts.com
 kinozal.me
 kinozal.tv
+last.fm
 meduza.io
 metacritic.com
 metahub.space
