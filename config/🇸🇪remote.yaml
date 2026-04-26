@@ -74,15 +74,10 @@ proxies: [] # Это пустой список, он не вызывает ош�
 #      udp: true
 #      tfo: true
 proxy-groups:
-  - name: 🚀 Proxy
-    type: select
-    proxies:
-      - 🇸🇪HostUp        # Это имя ПРОКСИ из оверрайда
-      - 📋YandexCloud
   - name: Заблок. сервисы
     type: select
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png
-    proxies: [🇸🇪HostUp]
+    include-all: true
   - name: AI
     type: select
     icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/basic-memory.png
