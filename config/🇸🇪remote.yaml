@@ -82,7 +82,7 @@ proxy-groups:
   - name: Заблок. сервисы
     type: select
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png
-    include-all: true
+    proxies: [🇸🇪HostUp]
   - name: AI
     type: select
     icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/basic-memory.png
