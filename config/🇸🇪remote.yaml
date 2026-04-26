@@ -51,6 +51,10 @@ anchors:
   a2: &ipcidr {type: http, format: mrs, behavior: ipcidr, interval: 86400}
   a3: &classical {type: http, format: text, behavior: classical, interval: 86400}
   a4: &inline {type: inline, behavior: classical}
+
+proxies:
+  - name: 🇸🇪HostUp
+  - name: 📋YandexCloud
 ######################################################################################
 # Пример подключения С использованием подписки (РАСКОММЕНТИРОВАТЬ ДЛЯ ИСПОЛЬЗОВАНИЯ) #
 ######################################################################################
