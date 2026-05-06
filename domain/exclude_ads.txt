@@ -1,4 +1,5 @@
 +.ageverif.com
++.cloudflareinsights.com
 +.mc.yandex.ru
 +.ndmdhs.com
 +.spac.me
