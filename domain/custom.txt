@@ -22,6 +22,7 @@
 +.goodreads.com
 +.habr.com
 +.habrastorage.org
++.host.io
 +.hostup.se
 +.js.zi-scripts.com
 +.kinozal.me
