@@ -18,6 +18,7 @@
 +.ebalka.video
 +.elfhosted.com
 +.fandango.com
++.githubusercontent.com
 +.goodreads.com
 +.habr.com
 +.habrastorage.org
