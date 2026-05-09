@@ -18,6 +18,7 @@
 +.ebalka.video
 +.elfhosted.com
 +.fandango.com
++.fap-guru.site
 +.githubusercontent.com
 +.goodreads.com
 +.habr.com
