@@ -3,6 +3,7 @@
 +.abxxx.com
 +.amnezia.org
 +.amneziavpn.org
++.api3.siftscience.com
 +.bitrefill.com
 +.bosch.com
 +.bosch-home.com
