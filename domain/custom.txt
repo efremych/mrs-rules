@@ -19,6 +19,7 @@
 +.dnsperf.com
 +.ebalka.video
 +.elfhosted.com
++.epicgfs.com
 +.fandango.com
 +.fap-guru.site
 +.githubusercontent.com
