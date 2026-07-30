@@ -29,6 +29,7 @@
 +.host.io
 +.hostup.se
 +.js.zi-scripts.com
++.kinozal.jumpingcrab.com
 +.kinozal.me
 +.kinozal.tv
 +.last.fm
