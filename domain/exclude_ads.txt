@@ -1,5 +1,6 @@
 +.ageverif.com
 +.cloudflareinsights.com
++.counters.booking.com
 +.mc.yandex.ru
 +.ndmdhs.com
 +.pub.network
