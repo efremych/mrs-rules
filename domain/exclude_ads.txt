@@ -1,4 +1,5 @@
 +.ageverif.com
++.antibot.wildberries.ru
 +.cloudflareinsights.com
 +.counters.booking.com
 +.mc.yandex.ru
