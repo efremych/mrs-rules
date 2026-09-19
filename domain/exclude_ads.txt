@@ -6,3 +6,4 @@
 +.ndmdhs.com
 +.pub.network
 +.spac.me
++.stat.arzamas.academy
