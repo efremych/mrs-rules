@@ -4,6 +4,7 @@
 +.amnezia.org
 +.amneziavpn.org
 +.api3.siftscience.com
++.audioscrobbler.com
 +.bitrefill.com
 +.bosch.com
 +.bosch-home.com
