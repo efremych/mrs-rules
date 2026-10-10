@@ -38,6 +38,7 @@
 +.meduza.io
 +.metacritic.com
 +.metahub.space
++.nianticlabs.com
 +.nnmclub.to
 +.nnmstatic.win
 +.pixeldrain.com
