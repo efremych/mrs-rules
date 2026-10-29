@@ -1,0 +1,59 @@
+name: Build .mrs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'domain/*.txt'
+      - 'ip_cidr/*.txt'
+      - '.github/workflows/build-mrs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-mrs
+  cancel-in-progress: false
+
+env:
+  MIHOMO_VERSION: v1.19.33
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install mihomo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download "$MIHOMO_VERSION" --repo MetaCubeX/mihomo \
+            --pattern "mihomo-linux-amd64-compatible-$MIHOMO_VERSION.gz" --output mihomo.gz
+          gunzip mihomo.gz
+          chmod +x mihomo
+          ./mihomo -v
+
+      - name: Convert txt to mrs
+        run: |
+          for f in domain/*.txt ip_cidr/*.txt; do
+            case "$f" in
+              domain/*) behavior=domain ;;
+              ip_cidr/*) behavior=ipcidr ;;
+            esac
+            ./mihomo convert-ruleset "$behavior" text "$f" "${f%.txt}.mrs"
+          done
+          rm mihomo
+
+      - name: Commit changes
+        run: |
+          git add domain/*.mrs ip_cidr/*.mrs
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Rebuild .mrs"
+          git push
