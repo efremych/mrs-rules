@@ -39,6 +39,7 @@
 +.metacritic.com
 +.metahub.space
 +.nianticlabs.com
++.nianticstatic.com
 +.nnmclub.to
 +.nnmstatic.win
 +.pixeldrain.com
